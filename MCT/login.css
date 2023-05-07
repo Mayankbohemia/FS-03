@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-top: 2%;
+    background-color: rgb(5, 5, 20);
+    margin-left: 2%;
+    margin-right: 5px;
+}
+.body {
+    background-color: rgb(5, 5, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+/*----------------------------------- Login Page ---------------------------------------*/
+.details {
+    
+    margin-top: 1rem;
+}
+.container{
+    height: 90vh;
+    width: 60%;
+    background-color: rgb(15, 15, 54);
+    box-shadow: 2px 2px 5px 2px   rgba(5, 5, 20, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+       
+}
+.image__container {
+    height: 100%;
+   
+}
+.image {
+    height: 100%;
+    width:100%;
+   
+    border-radius: 10px;
+}
+
+.login__details{
+    margin-top: 2rem;
+    width: 50%;
+    
+    
+}
+.login__details h2 {
+    color: white;
+    padding-bottom: 7px;
+    font-size: 1.8rem;
+}
+.login__details h4 {
+    color: rgb(160, 156, 156);
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+}
+.form{
+    width: 100%;
+}
+.form h2 {
+    color: red;
+    font-size: 0.7rem;
+}
+.login__details form {
+    color: rgb(160, 156, 156);
+    
+}
+.fill__details {
+    width: 80%;
+    height: 30px;
+}
+.login__details form input {
+    
+    background-color: rgb(15, 15, 54);
+    color: white;
+    border-style: solid;
+    border-color: rgb(47, 47, 66);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px   rgba(9, 9, 46, 0.5);
+    
+}
+.login__details form button{
+    margin-top: 2rem;
+    background-color: rgb(236, 30, 30);
+    
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+.login__details form button:hover {    
+    background-color: rgb(43, 2, 2);
+
+}
+
+/* ----------------------------------------------Movie List--------------------------------------- */
+.movies__grid h4 li{
+    list-style: none;
+    font-style: none;
+    color: white;
+}
+.icon{
+    width: 50px;
+}
+.user {
+    width: 50px;
+}
+.content {
+    display: flex;
+    gap: 20%;
+}
+.navigation{
+    display: flex;
+    gap: 20%;
+    
+}
+.lists{
+    display: flex;
+    gap: 3rem;
+    color:rgb(160, 156, 156) ;
+    font-size: 0.8rem;
+}
+.lists h2:hover{
+    color: white;
+    cursor: pointer;
+}
+.search__bar{
+    background-color: rgb(15, 15, 54);
+    border-style: none;
+    width: 300px;
+    border-radius: 30px;
+    padding-left: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+.content{
+    margin-top: 5%;
+    display: flex;
+    /* gap: 2rem; */
+    
+}
+.sidebar h3{
+    color: white;
+    padding-bottom: 2rem;
+}
+.sidebar ul li {
+    color: rgb(160, 156, 156);
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 2rem;
+    
+}
+.point{
+    cursor: pointer;
+    
+}
+.point:hover {
+    color: white;
+}
+.movielist{
+    background-color:rgb(15, 15, 54) ;
+}
+.movie__container {
+    background-color:rgb(15, 15, 54) ;
+    color: white;
+    width: 90%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    overflow: scroll;
+    
+    
+}
+.movies__grid {
+    margin-top: 2rem;
+    /* border: red; */
+    /* border-style: solid; */
+    width: 20%;
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+
+}
+.img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+   
+}
+.flex{
+    display: flex;
+    gap: 1rem;
+
+}
+.flex1{
+    display: flex;
+    gap: 1rem;
+
+}
+.flex3{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-bottom: 3rem;
+
+}
+.star{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+}
+.category {
+    margin-left: 1.3rem;
+    
+}
+.color{
+    color: white;
+}
+.gap{
+    margin-left: 0.4rem;
+    color:rgb(160, 156, 156) ;
+}
+
+/* ------------------------------------------------------Movie Details----------------------------------------- */
+
+.main{
+    display: flex;
+    gap: 6rem;
+    color: white;
+}
+.imagee{
+    height: 500px;
+    width: 500px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.gray{
+    color: rgb(160, 156, 156) ;
+}
+.scale{
+    display: inline;
+}
+.scale span{
+    color: white;
+    margin-left: 1rem;
+}
+
+
